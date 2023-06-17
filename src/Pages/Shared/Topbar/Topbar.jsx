@@ -21,7 +21,7 @@ const Topbar = () => {
                 </div>
                 <div className='flex gap-2 items-center cursor-pointer hover:text-white'>
                 <FiPhoneCall></FiPhoneCall>
-                (+880)0173257987
+                (209)555-0104
                 </div>
             </div>
         </div>

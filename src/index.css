@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.text-color{
+    @apply text-[#FD9C06]
+}
+
+.btn-custom{
+    @apply bg-[#495AF0] text-white md:px-5 md:py-4 lg:px-9 lg:py-5
+}
+
