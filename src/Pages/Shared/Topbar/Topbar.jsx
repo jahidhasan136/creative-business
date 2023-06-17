@@ -6,7 +6,8 @@ import { FiPhoneCall } from 'react-icons/fi';
 
 const Topbar = () => {
     return (
-        <div className='flex justify-between bg-black text-white/80 p-2'>
+        <div className='bg-black'>
+            <div className='flex justify-between text-white/80 p-2 container mx-auto'>
             <div className='flex text-lg gap-3'>
                 <FaLinkedinIn className='cursor-pointer hover:text-white'></FaLinkedinIn>
                 <AiOutlineTwitter className='cursor-pointer hover:text-white'></AiOutlineTwitter>
@@ -23,6 +24,7 @@ const Topbar = () => {
                 (+880)0173257987
                 </div>
             </div>
+        </div>
         </div>
     );
 };
