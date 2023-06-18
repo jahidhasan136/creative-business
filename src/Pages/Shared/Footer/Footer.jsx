@@ -12,7 +12,7 @@ const Footer = () => {
                         <p className='text-sm lg:text-lg lg:leading-7 text-gray'>Enter your details to get business inspiration, trending solutions, and consulting tips delivered to your inbox</p>
                     </div>
                     <div className="relative">
-                        <input type="text" placeholder="Enter your email" className="input input-bordered w-full pr-16 rounded-none" />
+                        <input type="text" placeholder="Enter your email" className="input input-bordered w-full pr-16 rounded-none text-black" />
                         <button className="btn bg-[#495AF0] capitalize text-white border-0 absolute top-0 right-0 rounded-l-none rounded-none">Subscribe</button>
                     </div>
                 </div>
