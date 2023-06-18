@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaPinterestP } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className='bg-black text-white'>
+        <div className='bg-black text-white md:mt-20 lg:mt-28'>
             <div className='container mx-auto'>
                 <div className='flex justify-between items-center md:py-8 lg:py-16'>
                     <div className='w-1/2 grid md:gap-3 lg:gap-6'>
