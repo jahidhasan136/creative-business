@@ -22,7 +22,7 @@ const AboutUs = () => {
                     <SectionTitle
                         title="About Us"
                     >
-                        
+
                     </SectionTitle>
                 </p>
                 <h2 className='font-bold md:text-3xl lg:text-5xl md:mb-3 lg:mb-5'>We are aware for our quality to successful business</h2>

@@ -6,12 +6,14 @@ import ellipse1 from '../../../assets/banner/ellipse-1.png'
 import ellipse2 from '../../../assets/banner/ellipse-2.png'
 import ellipse3 from '../../../assets/banner/ellipse-3.png'
 import ellipse4 from '../../../assets/banner/ellipse-4.png'
+import bg from '../../../assets/banner/bg-shape.png'
 import './Banner.css'
 import CountUp from "react-countup";
 
 const Banner = () => {
     return (
-        <div className="bg-[#F4F9FF]">
+        <div className="bg-[#F4F9FF] relative">
+            <img className="absolute w-1/3" src={bg} alt="" />
             <div className="p-10">
                 <div className="container mx-auto flex justify-between items-center">
                     {/* left side */}

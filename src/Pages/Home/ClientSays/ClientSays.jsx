@@ -1,10 +1,12 @@
 import { RiArrowRightUpLine } from "react-icons/ri";
 import clientImg from '../../../assets/client/clientImg.png'
 import client from '../../../assets/client/client.png'
+import bg from '../../../assets/banner/bg-shape.png'
 
 const ClientSays = () => {
     return (
-        <div className="lg:mt-28 md:mt-20">
+        <div className="lg:mt-28 md:mt-20 relative">
+            <img className="absolute -right-28 top-96 w-1/3" src={bg} alt="" />
             <div className="">
                 <div className="md:mb-10 lg:mb-14  bg-[#FFF5DA] pb-56">
                     <div className="flex justify-between container mx-auto pt-10">
