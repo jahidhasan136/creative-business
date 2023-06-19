@@ -32,25 +32,25 @@ const Services = () => {
                     <img className="md:mb-2 lg:mb-3" src={busineessAnalysis} alt="" />
                     <h3 className="mb-2 font-bold lg:text-lg">Business Analysis</h3>
                     <p className="md:mb-4 lg:mb-6">Business analysis is a professional discipline of identifying business needs determining</p>
-                    <p className="font-semibold flex items-center gap-2">Read More <FaArrowRight></FaArrowRight></p>
+                    <p className="font-semibold flex items-center gap-2 cursor-pointer hover:text-indigo-500">Read More <FaArrowRight></FaArrowRight></p>
                 </div>
                 <div className="bg-base-100 shadow-md md:p-3 p-5">
-                    <img src={financialAnalysis} alt="" />
+                    <img className="md:mb-2 lg:mb-3" src={financialAnalysis} alt="" />
                     <h3 className="mb-2 font-bold lg:text-lg">Financila Analysis</h3>
                     <p className="md:mb-4 lg:mb-6">Business analysis is a professional discipline of identifying business needs determining</p>
-                    <p className="font-semibold flex items-center gap-2">Read More <FaArrowRight></FaArrowRight></p>
+                    <p className="font-semibold flex items-center gap-2 cursor-pointer hover:text-indigo-500">Read More <FaArrowRight></FaArrowRight></p>
                 </div>
                 <div className="bg-base-100 shadow-md md:p-3 p-5">
-                    <img src={riskManagement} alt="" />
+                    <img className="md:mb-2 lg:mb-3" src={riskManagement} alt="" />
                     <h3 className="mb-2 font-bold lg:text-lg">Risk Management</h3>
                     <p className="md:mb-4 lg:mb-6">Business analysis is a professional discipline of identifying business needs determining</p>
-                    <p className="font-semibold flex items-center gap-2">Read More <FaArrowRight></FaArrowRight></p>
+                    <p className="font-semibold flex items-center gap-2 cursor-pointer hover:text-indigo-500">Read More <FaArrowRight></FaArrowRight></p>
                 </div>
                 <div className="bg-base-100 shadow-md md:p-3 p-5">
-                    <img src={stategic} alt="" />
+                    <img className="md:mb-2 lg:mb-3" src={stategic} alt="" />
                     <h3 className="mb-2 font-bold lg:text-lg">Stategic Consulting</h3>
                     <p className="md:mb-4 lg:mb-6">Business analysis is a professional discipline of identifying business needs determining</p>
-                    <p className="font-semibold flex items-center gap-2">Read More <FaArrowRight></FaArrowRight></p>
+                    <p className="font-semibold flex items-center gap-2 cursor-pointer hover:text-indigo-500">Read More <FaArrowRight></FaArrowRight></p>
                 </div>
             </div>
         </div>
