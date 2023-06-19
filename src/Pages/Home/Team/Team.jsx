@@ -31,6 +31,12 @@ const Team = () => {
             >
                 <SwiperSlide>
                     <img src={team1} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={team2} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={team3} alt="" />
                     <div className="translate-y-1 bg-white">
                     <div className="flex items-center justify-between p-3 lg:p-5 -mt-28 lg:-mt-32 lg:w-[470px]">
                         <div>
@@ -44,12 +50,6 @@ const Team = () => {
                         </div>
                     </div>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={team2} alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={team3} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={team4} alt="" />
