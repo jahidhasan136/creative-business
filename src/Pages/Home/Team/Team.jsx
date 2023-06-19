@@ -6,6 +6,8 @@ import team2 from '../../../assets/team/team2.png'
 import team3 from '../../../assets/team/team3.png'
 import team4 from '../../../assets/team/team4.png'
 import team5 from '../../../assets/team/team5.png'
+import { AiOutlineTwitter } from 'react-icons/ai'
+import { FaLinkedinIn, FaPinterestP } from 'react-icons/fa'
 
 SwiperCore.use([Autoplay, Pagination]);
 
@@ -29,6 +31,19 @@ const Team = () => {
             >
                 <SwiperSlide>
                     <img src={team1} alt="" />
+                    <div className="translate-y-1 bg-white">
+                    <div className="flex items-center justify-between p-3 lg:p-5 -mt-28 lg:-mt-32 lg:w-[470px]">
+                        <div>
+                            <h3 className="font-bold lg:text-xl">Jenny Wilson</h3>
+                            <p className="lg:text-lg">St. Celina, Delaware</p>
+                        </div>
+                        <div className="flex gap-3">
+                            <AiOutlineTwitter className="border rounded-full text-4xl lg:text-5xl p-2 bg-[#50D0F9] text-white cursor-pointer"></AiOutlineTwitter>
+                            <FaLinkedinIn className="border rounded-full text-4xl lg:text-5xl p-2 bg-[#3F51F6] text-white cursor-pointer"></FaLinkedinIn>
+                            <FaPinterestP className="border rounded-full text-4xl lg:text-5xl p-2 bg-[#EF2121] text-white cursor-pointer"></FaPinterestP>
+                        </div>
+                    </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={team2} alt="" />
