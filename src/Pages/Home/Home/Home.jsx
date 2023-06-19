@@ -6,6 +6,7 @@ import Features from "../Features/Features";
 import Services from "../Services/Services";
 import SocialSection from "../SocialSection/SocialSection";
 import Update from "../Update/Update";
+import Team from "../Team/Team";
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <AboutUs></AboutUs>
             <Features></Features>
             <Services></Services>
+            <Team></Team>
             <ClientSays></ClientSays>
             <Update></Update>
         </div>
