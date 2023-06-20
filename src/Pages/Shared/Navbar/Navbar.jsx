@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className='container mx-auto flex justify-between items-center'>
                 <img src={logo} alt="" />
                 <div className='md:flex hidden gap-10'>
-                    <a href="#home">Home</a>
+                    <Link to='/'>Home</Link>
                     <a href="#about">About Us</a>
                     <a href="#services">Services</a>
                     <a href="">Pricing</a>
@@ -51,7 +51,7 @@ const Navbar = () => {
 
             <div className={`flex-col gap-5 absolute  bg-[#000000a5] top-0 px-8 items-center pt-28 w-64 h-screen text-white flex md:hidden transition-all duration-300 ease-in-out ${open ? 'left-0' : '-left-64'}`}>
                 <div className='md:hidden grid gap-4'>
-                    <a href="#home">Home</a>
+                    <Link to='/'>Home</Link>
                     <a href="#about">About Us</a>
                     <a href="#services">Services</a>
                     <a href="">Pricing</a>
