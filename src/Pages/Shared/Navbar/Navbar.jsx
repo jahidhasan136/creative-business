@@ -3,6 +3,7 @@ import logo from '../../../assets/logo.png'
 import { RiArrowRightUpLine } from 'react-icons/ri'
 import { RxCross2 } from 'react-icons/rx'
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
@@ -28,7 +29,7 @@ const Navbar = () => {
                     <a href="">Pricing</a>
                     <a href="#blog">Blog</a>
                     <a href="">Contact</a>
-                    <a href="">todos</a>
+                    <Link to="/todos">todos</Link>
                 </div>
                 <div className='md:flex hidden'>
                     <button className='flex items-center border px-3 py-2 border-black font-semibold'>Free Consultation <RiArrowRightUpLine></RiArrowRightUpLine></button>
@@ -56,7 +57,7 @@ const Navbar = () => {
                     <a href="">Pricing</a>
                     <a href="#blog">Blog</a>
                     <a href="">Contact</a>
-                    <a href="">todos</a>
+                    <Link to="/todos">todos</Link>
                 </div>
                 <div className='md:hidden grid'>
                     <button className='flex items-center px-3 py-2 bg-[#495AF0] font-semibold'>Free Consultation <RiArrowRightUpLine></RiArrowRightUpLine></button>
