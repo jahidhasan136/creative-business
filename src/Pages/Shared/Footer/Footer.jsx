@@ -4,9 +4,9 @@ import { FaLinkedinIn, FaPinterestP } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className='bg-black text-white md:mt-20 lg:mt-28'>
+        <div className='bg-black text-white mt-10 md:mt-20 lg:mt-28'>
             <div className='container mx-auto'>
-                <div className='flex justify-between items-center md:py-8 lg:py-16'>
+                <div className='flex justify-between items-center py-8 lg:py-16'>
                     <div className='w-1/2 grid md:gap-3 lg:gap-6'>
                         <h2 className='md:text-2xl lg:text-4xl font-semibold'>Subscribe Our Newsletter</h2>
                         <p className='text-sm lg:text-lg lg:leading-7 text-gray'>Enter your details to get business inspiration, trending solutions, and consulting tips delivered to your inbox</p>
@@ -66,8 +66,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='md:pb-8'>
-                <div className='bg-[#181818] flex justify-between text-gray md:mt-7 lg:mt-14 lg:mb-8 md:p-4 lg:p-7'>
+                <div className='pb-8'>
+                <div className='bg-[#181818] flex justify-between text-gray mt-7 lg:mt-14 lg:mb-8 p-4 lg:p-7'>
                     <p>2022 CreativePeoples. All Rights Reserved </p>
                     <div>
                         <a href="">Privacy Policy</a>

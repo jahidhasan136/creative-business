@@ -8,10 +8,9 @@
 }
 
 .btn-custom{
-    @apply bg-[#495AF0] text-white md:px-5 md:py-4 lg:px-9 lg:py-5
+    @apply bg-[#495AF0] text-white px-5 py-4 lg:px-9 lg:py-5
 }
 
 .text-gray{
     @apply text-[#B4B4B4]
 }
-

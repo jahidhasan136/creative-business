@@ -9,29 +9,29 @@ import bgColor from '../../../assets/services/bgColor.png'
 
 const Services = () => {
     return (
-        <div className="relative overflow-hidden">
-            <img src={bgColor} className="absolute w-1/2 right-0 mt-16" alt="" />
+        <div className="relative overflow-hidden" id="services">
+            <img src={bgColor} className="absolute md:w-1/2 right-0 mt-8 md:mt-16" alt="" />
             <img className="absolute -left-10 top-56 w-1/3" src={bg} alt="" />
-            <div className="container mx-auto flex justify-between md:mt-20 lg:mt-28 md:gap-8 lg:gap-16">
-                <div>
+            <div className="container mx-auto flex md:flex-row flex-col justify-between mt-12 md:mt-20 lg:mt-28 gap-8 lg:gap-16">
+                <div className="z-10">
                     <SectionTitle
                         title="Our Services"
                     ></SectionTitle>
-                    <h1 className="md:text-3xl lg:text-5xl font-bold md:mb-2 lg:mb-5">Providing all Console Solution</h1>
-                    <p className="lg:text-xl md:mb-7 lg:mb-16">Business consultants provide management consulting to help busiessss organization improve performance and efficince</p>
+                    <h1 className="text-3xl lg:text-5xl font-bold mb-2 lg:mb-5">Providing all Console Solution</h1>
+                    <p className="lg:text-xl mb-4 text-lg md:mb-7 lg:mb-16">Business consultants provide management consulting to help busiessss organization improve performance and efficince</p>
                     <div className="flex">
                         <div>
-                            <h3 className="text-color font-bold md:text-3xl lg:text-5xl">96%</h3>
+                            <h3 className="text-color font-bold text-3xl lg:text-5xl">96%</h3>
                             <p className="font-bold">Satisfaction rate</p>
                         </div>
                         <div className="divider-horizontal divider"></div>
                         <div>
-                            <h3 className="text-color font-bold md:text-3xl lg:text-5xl">25M</h3>
+                            <h3 className="text-color font-bold text-3xl lg:text-5xl">25M</h3>
                             <p className="font-bold">Registered users</p>
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 gap-7 z-10">
+                <div className="grid sm:grid-cols-2 gap-7 z-10">
                     <div className="bg-base-100 shadow-md md:p-3 p-5">
                         <img className="md:mb-2 lg:mb-3" src={busineessAnalysis} alt="" />
                         <h3 className="mb-2 font-bold lg:text-lg">Business Analysis</h3>

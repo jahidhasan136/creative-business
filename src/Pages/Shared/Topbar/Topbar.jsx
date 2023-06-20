@@ -6,7 +6,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 
 const Topbar = () => {
     return (
-        <div className='bg-black'>
+        <div className='bg-black fixed z-50 w-full'>
             <div className='flex justify-between items-center text-white/80 p-2 container mx-auto'>
             <div className='flex text-lg gap-3'>
                 <FaLinkedinIn className='cursor-pointer hover:text-white'></FaLinkedinIn>

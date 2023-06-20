@@ -13,9 +13,9 @@ SwiperCore.use([Autoplay, Pagination]);
 
 const Team = () => {
     return (
-        <div className="md:mt-20 lg:mt-28">
+        <div className="mt-10 md:mt-20 lg:mt-28">
             <h3 className="text-red-500 uppercase text-center">Our Team</h3>
-            <h1 className="font-bold md:text-3xl lg:text-5xl text-center md:mb-7 lg:mb-14">Meet with Expert</h1>
+            <h1 className="font-bold text-3xl lg:text-5xl text-center mb-4 md:mb-7 lg:mb-14">Meet with Expert</h1>
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}

@@ -14,3 +14,12 @@
         height: 350px;
     }
 }
+@media (min-width: 576px) and (max-width: 767px) {
+    .bg-rectangle{
+        background-image: url('../../../assets/banner/rectangle_bg.png');
+        background-size: cover;
+        width: 300px;
+        height: 350px;
+        margin-right: 50px;
+    }
+}

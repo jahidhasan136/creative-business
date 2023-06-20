@@ -6,10 +6,11 @@ import stackoverflow from '../../../assets/social/stackoverflow.png'
 import bg from '../../../assets/banner/bg-shape.png'
 import Marquee from "react-fast-marquee";
 
+// -right-40
 const SocialSection = () => {
     return (
-        <div className='relative'>
-            <img className='absolute -right-40 top-4 w-1/3' src={bg} alt="" />
+        <div className='relative mb-10 md:mb-0'>
+            <img className='absolute  top-4 w-1/3' src={bg} alt="" />
             <div className='container mx-auto'>
             <Marquee gradient>
             <div className='md:p-10 lg:p-24 flex items-center gap-10 lg:gap-20'>
