@@ -12,7 +12,7 @@ const Todos = () => {
     }, [])
 
     return (
-        <div className="pt-32 grid grid-cols-2 mx-auto justify-center items-center gap-5">
+        <div className="pt-32 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto justify-center items-center gap-5">
             {
                 todos.map(item => <TodosCard 
                     key={item.id}
