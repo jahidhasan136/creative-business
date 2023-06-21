@@ -13,7 +13,7 @@ const Services = () => {
             <img src={bgColor} className="absolute md:w-1/2 right-0 mt-8 md:mt-16" alt="" />
             <img className="absolute -left-10 top-56 w-1/3" src={bg} alt="" />
             <div className="container mx-auto flex md:flex-row flex-col justify-between mt-12 md:mt-20 lg:mt-28 gap-8 lg:gap-16">
-                <div className="z-10">
+                <div className="z-10 p-3 md:p-0">
                     <SectionTitle
                         title="Our Services"
                     ></SectionTitle>

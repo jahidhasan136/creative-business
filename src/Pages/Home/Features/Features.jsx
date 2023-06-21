@@ -6,7 +6,7 @@ import success from '../../../assets/features/successChart.png'
 
 const Features = () => {
     return (
-        <div className="container mx-auto mt-10 md:mt-24 lg:mt-32 flex md:flex-row flex-col justify-between md:gap-10 lg:gap-20" id="blog">
+        <div className="container mx-auto mt-10 md:mt-24 lg:mt-32 flex md:flex-row flex-col justify-between md:gap-10 lg:gap-20 p-3 md:p-0" id="blog">
             <div>
                 <SectionTitle
                     title="Features"

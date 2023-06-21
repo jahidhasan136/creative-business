@@ -9,7 +9,7 @@ const AboutUs = () => {
     return (
         <div className='relative overflow-hidden' id='about'>
             <img className='absolute md:w-1/2 h-[370px] w-full md:h-full lg:w-1/2' src={bgColor} alt="" />
-            <div className='flex flex-col md:flex-row justify-between md:items-center mt-6 container mx-auto gap-10 lg:gap-20'>
+            <div className='flex flex-col md:flex-row justify-between md:items-center mt-6 container mx-auto gap-10 lg:gap-20 p-3 md:p-0'>
                 <div className='md:w-1/2 z-10'>
                     <div className='flex items-center gap-3 mb-3 md:mb-7 lg:mb-10'>
                         <img src={playIcon} alt="" />

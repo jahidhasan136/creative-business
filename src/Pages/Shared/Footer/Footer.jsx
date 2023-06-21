@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='bg-black text-white mt-10 md:mt-20 lg:mt-28'>
             <div className='container mx-auto'>
                 <div className='flex justify-between items-center py-8 lg:py-16'>
-                    <div className='w-1/2 grid md:gap-3 lg:gap-6'>
+                    <div className='w-1/2 grid md:gap-3 px-3 md:px-0 lg:gap-6'>
                         <h2 className='md:text-2xl lg:text-4xl font-semibold'>Subscribe Our Newsletter</h2>
                         <p className='text-sm lg:text-lg lg:leading-7 text-gray'>Enter your details to get business inspiration, trending solutions, and consulting tips delivered to your inbox</p>
                     </div>
@@ -16,7 +16,7 @@ const Footer = () => {
                         <button className="btn bg-[#495AF0] capitalize text-white border-0 absolute top-0 right-0 rounded-l-none rounded-none">Subscribe</button>
                     </div>
                 </div>
-                <div className='flex justify-between'>
+                <div className='md:flex p-3 md:p-0 justify-between'>
                     <div className='w-2/6 lg:w-3/6'>
                         <div className='flex items-center gap-3 mb-5'>
                             <img src={logo} alt="" />
